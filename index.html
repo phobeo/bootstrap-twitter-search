@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang=en>
+<head>
+<meta charset=utf-8>
+<link rel="stylesheet" href="http://twitter.github.com/bootstrap/assets/css/bootstrap-1.0.0.min.css"></link>
+<link rel="stylesheet" href="twitter-map.css"></link>
+<script type="text/javascript" src="https://raw.github.com/remy/twitterlib/master/twitterlib.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script type="text/javascript" src="main.js"></script>
+
+<title>twitter search</title>
+</head>
+<div class="topbar">
+	<div class="fixed">
+		<h3>
+			<a class="logo" href="#"><span>Twitter search</span></a>
+		</h3>
+		<ul>
+			<li class="active">
+				<a href="#">start</a>
+			</li>
+			<li>
+				<a href="#about" id="about_btn">about</a>
+			</li>
+		</ul>
+		<form id="search" action="">
+			<input id="f_username" type="text" placeholder="enter username"></input>
+		</form>
+	</div>
+</div>
+
+
+<div class="main">
+<div class="container-fluid">
+	<div id="messages"></div>
+	<div id="tweets"></div>
+</div>
+</div>
+
+<div id="about" class="modal"> 
+	<div class="modal-header"> 
+		<h3>useless about dialog</h3> 
+		<a href="#" class="close">&times;</a> 
+  </div>
+	<div class="modal-body">
+		<p>this app is just a test of what you can do with <a href="https://github.com/twitter/bootstrap">Bootstrap </a>. Don't expect any content here!'</p> 
+  </div> 
+  <div class="modal-footer"> 
+  	<a href="#" class="btn primary close">close</a>  
+  </div> 
+</div>
+
+</body>
+</html>

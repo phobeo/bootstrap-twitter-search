@@ -1,0 +1,7 @@
+.main {margin-top:4em;}
+#about {}
+#tweets > li {list-style-type: none;}
+#tweets > img {display: none;}
+.topbar {padding-left:1em;}
+.photo {float:left;margin-right:5px;}
+.hentry {vertical-align:50%;height:50px;border-bottom:1px dotted gray;margin-top:2px;}
